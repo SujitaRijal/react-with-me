@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link, NavLink} from 'react-router-dom'
+import logo from './logo/logo1.png';
 
 export default function Header() {
     return (
@@ -8,8 +9,8 @@ export default function Header() {
                 <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto">
                     <Link to="/" className="flex items-center">
                         <img
-                            src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
-                            className="h-12 mr-3"
+                            src={logo}
+                            className="w-auto h-14 "
                             alt="Logo"
                         />
                     </Link>
