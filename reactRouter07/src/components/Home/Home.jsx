@@ -1,46 +1,100 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
+import Carousel from "react-multi-carousel";
+import image1 from "../Home/picture.jpg";
+import image2 from "../Home/picture.jpg";
 
 export default function Home() {
-    return (
-        <div className="w-full mx-auto max-w-7xl">
-            <aside className="relative mx-2 overflow-hidden text-black rounded-lg sm:mx-16 sm:py-16">
-                <div className="relative z-10 max-w-screen-xl px-4 pt-10 pb-20 mx-auto sm:py-24 sm:px-6 lg:px-8">
-                    <div className="max-w-xl space-y-8 text-center sm:mt-1 mt-80 sm:text-right sm:ml-auto">
-                        <h2 className="text-4xl font-bold sm:text-5xl">
-                            Download Now
-                            <span className="hidden text-4xl sm:block">Lorem Ipsum</span>
-                        </h2>
+  const images = [{ image: image1 }, { image: image2 }];
 
-                        <Link
-                            className="inline-flex items-center px-6 py-3 font-medium text-white bg-orange-700 rounded-lg hover:opacity-75"
-                            to="/"
-                        >
-                            <svg
-                                fill="white"
-                                width="24"
-                                height="24"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fillRule="evenodd"
-                                clipRule="evenodd"
-                            >
-                                <path d="M1.571 23.664l10.531-10.501 3.712 3.701-12.519 6.941c-.476.264-1.059.26-1.532-.011l-.192-.13zm9.469-11.56l-10.04 10.011v-20.022l10.04 10.011zm6.274-4.137l4.905 2.719c.482.268.781.77.781 1.314s-.299 1.046-.781 1.314l-5.039 2.793-4.015-4.003 4.149-4.137zm-15.854-7.534c.09-.087.191-.163.303-.227.473-.271 1.056-.275 1.532-.011l12.653 7.015-3.846 3.835-10.642-10.612z" />
-                            </svg>
-                            &nbsp; Download now
-                        </Link>
-                    </div>
-                </div>
-
-                <div className="absolute inset-0 w-full h-full pt-12 sm:my-20 sm:pt-1 ">
-                    <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
-                </div>
-            </aside>
-
-            <div className="grid place-items-center sm:mt-20">
-                <img className="w-48 sm:w-96" src="https://i.ibb.co/2M7rtLk/Remote1.png" alt="image2" />
-            </div>
-
-            <h1 className="py-10 text-2xl font-medium text-center sm:text-5xl">Lorem Ipsum Yojo</h1>
+  return (
+    <div className="w-full mx-auto">
+      <aside className="relative flex justify-between mx-2 overflow-hidden text-black rounded-lg sm:py-16">
+        <div className="w-1/2 pt-12 h-1/2 sm:my-20 sm:pt-1">
+          <Carousel
+            additionalTransfrom={0}
+            arrows
+            autoPlaySpeed={3000}
+            centerMode={false}
+            containerClass="container"
+            dotListClass=""
+            draggable
+            focusOnSelect={false}
+            infinite
+            itemClass=""
+            keyBoardControl
+            minimumTouchDrag={80}
+            pauseOnHover
+            renderArrowsWhenDisabled={false}
+            renderButtonGroupOutside={false}
+            renderDotsOutside={false}
+            rewind={false}
+            rewindWithAnimation={false}
+            rtl={false}
+            shouldResetAutoplay
+            showDots
+            sliderClass=""
+            slidesToSlide={1}
+            swipeable
+            responsive={{
+              desktop: {
+                breakpoint: {
+                  max: 3000,
+                  min: 1024,
+                },
+                items: 1,
+              },
+              mobile: {
+                breakpoint: {
+                  max: 464,
+                  min: 0,
+                },
+                items: 1,
+              },
+              tablet: {
+                breakpoint: {
+                  max: 1024,
+                  min: 464,
+                },
+                items: 1,
+              },
+            }}
+          >
+            {images.map((val, i) => (
+              <div key={i}>
+                <img
+                  className="w-full h-full"
+                  src={val.image}
+                  alt="carousel image"
+                />
+              </div>
+            ))}
+          </Carousel>
         </div>
-    );
+        <div className="flex-1 px-4 pt-10 pb-20 mx-auto sm:py-24 sm:px-6 lg:px-8">
+          <div className="max-w-xl space-y-8 text-center sm:mt-1 mt-80 sm:text-right sm:ml-auto">
+            <h2 className="text-2xl font-bold sm:text-5xl">Event Management</h2>
+            <button
+              type="button"
+              className="px-6 py-3 mt-3 font-bold text-white transition duration-300 ease-in-out bg-orange-700 rounded-lg md:w-32 hover:bg-blue-dark hover:bg-orange-600"
+            >
+              Book here
+            </button>
+          </div>
+        </div>
+      </aside>
+
+      <div className="grid place-items-center sm:mt-20">
+        <img
+          className="w-48 sm:w-96"
+          src="https://i.ibb.co/2M7rtLk/Remote1.png"
+          alt="remote image"
+        />
+      </div>
+
+      <h1 className="py-10 text-2xl font-medium text-center sm:text-5xl">
+        Lorem Ipsum Yojo
+      </h1>
+    </div>
+  );
 }

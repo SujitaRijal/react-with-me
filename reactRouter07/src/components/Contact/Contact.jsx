@@ -38,7 +38,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="w-40 ml-4 font-semibold tracking-wide text-md">
-                                    Acme Inc, Street, State, Postal Code
+                                    Tilottama-06 Manigram,Rupandehi
                                 </div>
                             </div>
 
@@ -60,7 +60,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="w-40 ml-4 font-semibold tracking-wide text-md">
-                                    +44 1234567890
+                                   9847066025
                                 </div>
                             </div>
 
@@ -82,7 +82,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="w-40 ml-4 font-semibold tracking-wide text-md">
-                                    info@acme.org
+                                    rijalKrishna@gmail.com
                                 </div>
                             </div>
                         </div>

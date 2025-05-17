@@ -1,0 +1,751 @@
+{
+  "pages":{
+    "shop":{
+      "sections":[
+        {
+          "title":"|Categories for Women",
+          "data":[
+            {
+              "title":"Hoddies & Sweatshirt",
+              "description":"Explore Now",
+                "image": "./images/hoddie.jpg"
+    
+    
+            },
+            {
+              "title":"Coats & Parkas",
+              "description":"Explore Now",
+                "image": "./images/coat.jpg"
+    
+    
+            },
+            {
+              "title":"Tees & Tshirt",
+              "description":"Explore Now",
+                "image": "./images/Tees.avif"
+    
+    
+            },
+            {
+              "title":"Shorts",
+              "description":"Explore Now",
+                "image": "./images/shorts.jpg"
+    
+    
+            }
+            
+            
+          ]
+          
+        },
+        {
+          "title":"|Categories for Men",
+          "data":[
+            {
+              "title":"T-Shirt",
+              "description":"Explore Now",
+                "image": "./images/MenTshirt.jpeg"
+            },
+            {
+              "title":"Jeans",
+              "description":"Explore Now",
+                "image": "./images/MenJeans.jpeg"
+            },
+            {
+              "title":"Shirt",
+              "description":"Explore Now",
+                "image": "./images/ShirtMen.jpeg"
+            },
+            {
+              "title":"Coat",
+              "description":"Explore Now",
+                "image": "./images/MenCoat.jpeg"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+
+
+  
+  "footer":{
+    "items":[
+      {
+      "title":"Need Help",
+      "list":[
+        {
+          "label":"Contact Us",
+          "path":"/contact-us"
+        },
+        {
+          "label":"Track Order",
+          "path":"/track-order"
+        },
+         {
+          "label":"Returns & Refunds",
+          "path":"/refunds"
+        } ,
+        {
+          "label":"FAQ's",
+          "path":"/faq"
+        },
+        {
+          "label":"Carrer",
+          "path":"/career"
+        }
+
+      ]
+    },
+    {
+      "title":"Company",
+      "list":[
+        {
+          "label":"About Us",
+          "path":"/about"
+        },
+        {
+          "label":"Media",
+          "path":"/media"
+        }
+         
+      ]
+    },
+    {
+      "title":"More info",
+      "list":[
+        {
+          "label":"Term & Conditions",
+          "path":"/term"
+        },
+        {
+          "label":"Privacy Policy",
+          "path":"/privacy"
+        },
+        {
+          "label":"Shopping Policy",
+          "path":"/shopping"
+        }
+       
+         
+      ]
+    },
+    {
+      "title":"location",
+      "description":"Location Country"
+    }
+
+    ],
+    "copyright":"copyright © 2024 EaseShop "
+  },
+  "categories":[
+    {
+      "id":1,
+      "name":"Men",
+      "code":"MEN",
+      "description":"Men's Clothing",
+      "types":[
+        {
+          "id":1,
+          "name":"Tshirt",
+          "description":"Men's Tshirt"
+        },
+        {
+          "id":2,
+          "name":"Jeans",
+          "description":"Men's jeans"
+        },
+        {
+          "id":3,
+          "name":"Shirt",
+          "description":"Men's shirt"
+        },
+        {
+          "id":4,
+          "name":"Coat",
+          "description":"Men's Coat"
+        }
+        
+      ],
+      "meta_data":{
+            "colors":["Black", "White", "Purple", "Gray", "Blue","Red","Orange","Navy","Grey","Yellow","Pink","Green"],
+            "sizes":["S","M","L","XL","XXL"]
+          }
+    },
+    {
+      "id":2,
+      "name":"Women",
+      "code":"WOMEN",
+      "description":"Women's Clothing",
+      "types":[
+        {
+          "type_id":5,
+          "code":"DRESSES",
+          "name":"Dresses"
+        },
+        {
+          "type_id":6,
+          "code":"SHIRT",
+          "name":"Shirt"
+        },
+        {
+          "type_id":7,
+          "code":"TSHIRT",
+          "name":"Tshirt"
+          
+        },
+        {
+          "type_id":8,
+          "code":"JEANS",
+          "name":"Jeans"
+          
+        },
+        {
+          "type_id":9,
+          "code":"JOGGERS",
+          "name":"Joggers"
+          
+        },
+        {
+          "type_id":10,
+          "code":"KURTI",
+          "name":"kurti"
+          
+        }
+        
+      ],
+      "meta_data":{
+            "colors":["Black", "White", "Purple", "Gray", "Blue","Red","Orange","Navy","Grey","Yellow","Pink","Green"],
+            "sizes":["S","M","L","XL","XXL"]
+          }
+    },
+    {
+      "id":3,
+      "name":"Kids",
+      "code":"KIDS",
+      "description":"Kid's Clothing",
+      "types":[
+        {
+          "id":11,
+          "name":"Tshirt",
+          "description":"Kid's Tshirt"
+        },
+        {
+          "id":12,
+          "name":"Jeans",
+          "description":"Kid's jeans"
+        },
+        {
+          "id":13,
+          "name":"Shirt",
+          "description":"Kid's shirt"
+        },
+        {
+          "id":14,
+          "name":"Coat",
+          "description":"Kid's Coat"
+        }
+        
+      ],
+      "meta_data":{
+            "colors":["Black", "White", "Purple", "Gray", "Blue","Red","Orange","Navy","Grey","Yellow","Pink","Green"],
+            "sizes":["S","M","L","XL","XXL"]
+          }
+    }
+  ],
+  "products":[
+    {
+      "id":1,
+      "title":"Black Sweatshirt",
+      "description":"A comfortable black sweatshirt for women",
+      "category_id":2,
+      "type_id":10,
+      "brand":"Nike",
+      "price":2500,
+      "size":["S","M","L"],
+      "color":["Black"],
+      "discount":"10%",
+      "thumbnail":"./images/Blacksweatshirt.jpg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":2,
+      "title":"White Tshirt",
+      "description":"A comfy tshirt for women",
+      "category_id":2,
+      "type_id":11,
+      "brand":"Zara",
+      "price":3000,
+      "size":["S","M","L"],
+      "color":["White"],
+      "discount":"10%",
+      "thumbnail":"./images/whitetee.jpeg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":3,
+      "title":"White Dress",
+      "description":"Branded Dress ",
+      "category_id":2,
+      "type_id":12,
+      "brand":"Trendywear",
+      "price":2500,
+      "size":["S","M","L"],
+      "color":["White"],
+      "discount":"10%",
+      "thumbnail":"./images/whitedress.jpg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":4,
+      "title":"Purple Hoodie",
+      "description":"Comfortable Hoodie for girls ",
+      "category_id":2,
+      "type_id":13,
+      "brand":"Zara",
+      "price":5000,
+      "size":["S","M","L"],
+      "color":["Purple"],
+      "discount":"20%",
+      "thumbnail":"./images/PurpleHoddie.jpeg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":5,
+      "title":"Black Dress",
+      "description":"Black trendy dress for girls ",
+      "category_id":2,
+      "type_id":14,
+      "brand":"Zara",
+      "price":5000,
+      "size":["S","M","L"],
+      "color":["Black"],
+      "discount":"20%",
+      "thumbnail":"./images/blackdress.webp",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":6,
+      "title":"Black Tshirt",
+      "description":"Black Tshirt for girls ",
+      "category_id":2,
+      "type_id":15,
+      "brand":"Trendywear",
+      "price":2000,
+      "size":["S","M","L"],
+      "color":["Black"],
+      "discount":"15%",
+      "thumbnail":"./images/blacktshirt.jpg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":7,
+      "title":"Blue Jeans",
+      "description":"Blue trendy jeans for girls ",
+      "category_id":2,
+      "type_id":16,
+      "brand":"Zara",
+      "price":2000,
+      "size":["S","M","L"],
+      "color":["Blue"],
+      "discount":"15%",
+      "thumbnail":"./images/jeans.jpg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":8,
+      "title":"Yellow Tshirt",
+      "description":"Yellow trendy tshirt for girls ",
+      "category_id":2,
+      "type_id":17,
+      "brand":"Trendywear",
+      "price":2200,
+      "size":["S","M","L"],
+      "color":["Yellow"],
+      "discount":"15%",
+      "thumbnail":"./images/yellotee.webp",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":9,
+      "title":"Purple Tshirt",
+      "description":"Purple trendy tshirt for girls ",
+      "category_id":2,
+      "type_id":18,
+      "brand":"Branded",
+      "price":2500,
+      "size":["S","M","L","XL","XXL"],
+      "color":["Purple"],
+      "discount":"22%",
+      "thumbnail":"./images/purpleTee.jpg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":10,
+      "title":"Pink Joggers",
+      "description":"Pink trendy joggers for girls ",
+      "category_id":2,
+      "type_id":19,
+      "brand":"Branded",
+      "price":2000,
+      "size":["S","M","L","XL","XXL"],
+      "color":["Pink"],
+      "discount":"20%",
+      "thumbnail":"./images/joggers.jpg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":11,
+      "title":"Red Kurti",
+      "description":"Red Kurtis for girls ",
+      "category_id":2,
+      "type_id":20,
+      "brand":"Branded",
+      "price":3000,
+      "size":["S","M","L","XL","XXL"],
+      "color":["Red"],
+      "discount":"20%",
+      "thumbnail":"./images/Kurti.webp",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":12,
+      "title":"White Shirt",
+      "description":"White shirt for girls ",
+      "category_id":2,
+      "type_id":20,
+      "brand":"Branded",
+      "price":2000,
+      "size":["S","M","L","XL","XXL"],
+      "color":["White"],
+      "discount":"20%",
+      "thumbnail":"./images/shirt.jpg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":13,
+      "title":"White Shirt",
+      "description":"White Shirt for men ",
+      "category_id":1,
+      "type_id":21,
+      "brand":"Branded",
+      "price":2000,
+      "size":["S","M","L","XL","XXL"],
+      "color":["White"],
+      "discount":"20%",
+      "thumbnail":"./images/ShirtMen.jpeg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":14,
+      "title":"Blue Jeans",
+      "description":"Blue Jeans for men ",
+      "category_id":1,
+      "type_id":22,
+      "brand":"Zara",
+      "price":2500,
+      "size":["S","L","XL","XXL"],
+      "color":["Blue"],
+      "discount":"25%",
+      "thumbnail":"./images/MenJeans.jpeg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":14,
+      "title":"Black Coat",
+      "description":"Branded Black coat for men ",
+      "category_id":1,
+      "type_id":23,
+      "brand":"Branded",
+      "price":4500,
+      "size":["S","L","XL","XXL"],
+      "color":["Black"],
+      "discount":"10%",
+      "thumbnail":"./images/MenCoat.jpeg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":15,
+      "title":"White Tshirt",
+      "description":"White Tshirts for men ",
+      "category_id":1,
+      "type_id":24,
+      "brand":"Zara",
+      "price":2500,
+      "size":["S","L","XL","XXL"],
+      "color":["White"],
+      "discount":"20%",
+      "thumbnail":"./images/MenTshirt.jpeg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":16,
+      "title":"Black Tshirt",
+      "description":"Black Tshirts for men ",
+      "category_id":1,
+      "type_id":25,
+      "brand":"Zara",
+      "price":2000,
+      "size":["S","L","XL","XXL"],
+      "color":["Black"],
+      "discount":"20%",
+      "thumbnail":"./images/MenBlackTshirt.webp",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":17,
+      "title":"Blue SweatShirt",
+      "description":"Blue Sweatshirts for men ",
+      "category_id":1,
+      "type_id":25,
+      "brand":"Branded",
+      "price":2000,
+      "size":["S","L","XL","XXL"],
+      "color":["Blue"],
+      "discount":"20%",
+      "thumbnail":"./images/blueMens.jpg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":18,
+      "title":"Black Hoddie",
+      "description":"Black Hoddie for men ",
+      "category_id":1,
+      "type_id":26,
+      "brand":"Branded",
+      "price":2500,
+      "size":["S","L","XL","XXL"],
+      "color":["Black"],
+      "discount":"10%",
+      "thumbnail":"./images/BlackHoddie.webp",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":19,
+      "title":"White Coat",
+      "description":"White Coat for men ",
+      "category_id":1,
+      "type_id":27,
+      "brand":"TrendyWear",
+      "price":5000,
+      "size":["S","L","XL","XXL"],
+      "color":["White"],
+      "discount":"10%",
+      "thumbnail":"./images/WhiteCoat.webp",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":20,
+      "title":"Black Jeans",
+      "description":"Black Jeans for men ",
+      "category_id":1,
+      "type_id":28,
+      "brand":"TrendyWear",
+      "price":2500,
+      "size":["S","L","XL","XXL"],
+      "color":["Blue"],
+      "discount":"10%",
+      "thumbnail":"./images/blackJeans.jpg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":21,
+      "title":"Black Kurti",
+      "description":"Black kurti for men ",
+      "category_id":1,
+      "type_id":29,
+      "brand":"Branded",
+      "price":2000,
+      "size":["S","L","XL","XXL"],
+      "color":["Black"],
+      "discount":"10%",
+      "thumbnail":"./images/BlackKurti.jpg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":22,
+      "title":"Purple shirt",
+      "description":"Purple shirt for men ",
+      "category_id":1,
+      "type_id":30,
+      "brand":"Branded",
+      "price":2500,
+      "size":["S","L","XL","XXL"],
+      "color":["Purple"],
+      "discount":"10%",
+      "thumbnail":"./images/purpleTshirt.webp",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":21,
+      "title":"White Shirt",
+      "description":"White Shirt for men ",
+      "category_id":1,
+      "type_id":30,
+      "brand":"Branded",
+      "price":2500,
+      "size":["S","L","XL","XXL"],
+      "color":["White"],
+      "discount":"10%",
+      "thumbnail":"./images/WhiteSHirt.jpg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":22,
+      "title":"White Shirt",
+      "description":"White Shirt for kids ",
+      "category_id":3,
+      "type_id":31,
+      "brand":"Branded",
+      "price":2000,
+      "size":["S","L","XL","XXL"],
+      "color":["White"],
+      "discount":"10%",
+      "thumbnail":"./images/kidsWhiteShirt.avif",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":23,
+      "title":"Black Jeans",
+      "description":"Black for kids ",
+      "category_id":3,
+      "type_id":32,
+      "brand":"TrendyWear",
+      "price":1500,
+      "size":["S","L","XL","XXL"],
+      "color":["Black"],
+      "discount":"20%",
+      "thumbnail":"./images/blackjeanskids.jpeg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":24,
+      "title":"Red Jacket",
+      "description":"Red Jacket for kids ",
+      "category_id":3,
+      "type_id":33,
+      "brand":"TrendyWear",
+      "price":5000,
+      "size":["S","L","XL","XXL"],
+      "color":["Red"],
+      "discount":"20%",
+      "thumbnail":"./images/redjacketkids.jpg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":25,
+      "title":"Black Shirt",
+      "description":"Black Shirt for kids ",
+      "category_id":3,
+      "type_id":37,
+      "brand":"Zara",
+      "price":2500,
+      "size":["S","L","XL","XXL"],
+      "color":["Red"],
+      "discount":"20%",
+      "thumbnail":"./images/blckshirtkids.jpeg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":26,
+      "title":"white Tshirt",
+      "description":"Wite TShirt for kids ",
+      "category_id":3,
+      "type_id":38,
+      "brand":"TrendyWear",
+      "price":1000,
+      "size":["S","L","XL","XXL"],
+      "color":["White"],
+      "discount":"20%",
+      "thumbnail":"./images/whiteTshirtkids.webp",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":26,
+      "title":"Black Coat",
+      "description":"Black Coat for kids ",
+      "category_id":3,
+      "type_id":38,
+      "brand":"Zara",
+      "price":5000,
+      "size":["S","L","XL","XXL"],
+      "color":["Black"],
+      "discount":"15%",
+      "thumbnail":"./images/blackcoatkids.jpg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":27,
+      "title":"Red Kurti",
+      "description":"Red Kurti for kids ",
+      "category_id":3,
+      "type_id":39,
+      "brand":"TrendyWear",
+      "price":3000,
+      "size":["S","M","L"],
+      "color":["Red"],
+      "discount":"10%",
+      "thumbnail":"./images/kidsredkurti.jpg",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    },
+    {
+      "id":27,
+      "title":"Black Shirt",
+      "description":"Black Coat for kids ",
+      "category_id":3,
+      "type_id":3,
+      "brand":"Nike",
+      "price":2500,
+      "size":["S","L","XL","XXL"],
+      "color":["Black"],
+      "discount":"10%",
+      "thumbnail":"./images/blackshirtkids.webp",
+      "images":["sweatshirt1.jpeg","sweatshirt2.webp"],
+      "ratings":4.8
+    }
+    
+    
+    
+
+
+
+
+
+
+
+
+    
+  ]
+}
