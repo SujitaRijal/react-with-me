@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      dropShadow:{
+        neon:"0 0 8px #00f7ff",
+      },
+    },
   },
   plugins: [],
 }
